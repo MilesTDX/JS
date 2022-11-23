@@ -5,3 +5,6 @@ let result = myArray[1];
 
 document.getElementsByClassName("demo")[0].innerHTML = result;
 }
+
+
+myFunction()
