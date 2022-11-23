@@ -6,10 +6,8 @@ function getSource() {
     const myArray = str.split("TicketID=", 4);
     let result = myArray[1];
 
-    return formURL + result;
+    document.getElementsByClassName("invoiceFrame")[0].src = formURL + result;
 
 }
 
-window.onload = function () {
-    document.getElementsByClassName("invoiceFrame")[0].src = getSource();
-}
+getSource();
