@@ -9,7 +9,7 @@ h1 {
   font-weight: bold;
 }
 
-button { 
+.DetailAction  { 
   display: block;
   font-size: 5em;
   font-weight: bold;
