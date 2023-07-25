@@ -11,7 +11,6 @@ h1 {
 
 .DetailAction  { 
   display: block;
-  font-size: 5em;
   font-weight: bold;
 }
 `
